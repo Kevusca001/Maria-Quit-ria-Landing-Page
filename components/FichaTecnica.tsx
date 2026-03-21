@@ -24,7 +24,7 @@ const equipe = [
     id: 4,
     nome: "Leandro Busch", 
     funcao: "Diretor Técnico", 
-    foto: "foto-2.png" 
+    foto: "/foto-2.png" 
   },
   { 
     id: 5,
