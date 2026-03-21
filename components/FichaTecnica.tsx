@@ -28,9 +28,9 @@ const equipe = [
   },
   { 
     id: 5,
-    nome: "Nome da Pessoa 5", 
-    funcao: "Figurino", 
-    foto: "https://picsum.photos/seed/equipe5/200/200" 
+    nome: "Evelyn Vasconcelos", 
+    funcao: "Produtora Musical", 
+    foto: "/foto-4.png" 
   },
   { 
     id: 6,
