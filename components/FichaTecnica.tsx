@@ -6,7 +6,7 @@ const equipe = [
     nome: "Lucília Costa", 
     funcao: "Atriz", 
     // Para usar sua própria foto, faça o upload para a pasta "public" com o nome "foto-1.jpg" e altere o src abaixo para "/foto-1.jpg"
-    foto: "https://picsum.photos/seed/equipe1/200/200" 
+    foto: "/foto-1.png" 
   },
   { 
     id: 2,
@@ -18,13 +18,13 @@ const equipe = [
     id: 3,
       nome: "Gustavo Horta", 
     funcao: "Diretor", 
-    foto: "https://picsum.photos/seed/equipe3/200/200" 
+    foto: "/foto-3.png" 
   },
   { 
     id: 4,
     nome: "Leandro Busch", 
     funcao: "Diretor Técnico", 
-    foto: "https://picsum.photos/seed/equipe4/200/200" 
+    foto: "foto-2.png" 
   },
   { 
     id: 5,
