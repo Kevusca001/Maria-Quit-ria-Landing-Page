@@ -3,27 +3,27 @@ import Image from 'next/image';
 const equipe = [
   { 
     id: 1,
-    nome: "Nome da Pessoa 1", 
-    funcao: "Direção Geral", 
+    nome: "Lucília Costa", 
+    funcao: "Atriz", 
     // Para usar sua própria foto, faça o upload para a pasta "public" com o nome "foto-1.jpg" e altere o src abaixo para "/foto-1.jpg"
     foto: "https://picsum.photos/seed/equipe1/200/200" 
   },
   { 
     id: 2,
-    nome: "Nome da Pessoa 2", 
-    funcao: "Atuação", 
+    nome: "Nathalia Lopes", 
+    funcao: "Atriz", 
     foto: "https://picsum.photos/seed/equipe2/200/200" 
   },
   { 
     id: 3,
-    nome: "Nome da Pessoa 3", 
-    funcao: "Produção", 
+      nome: "Gustavo Horta", 
+    funcao: "Diretor", 
     foto: "https://picsum.photos/seed/equipe3/200/200" 
   },
   { 
     id: 4,
-    nome: "Nome da Pessoa 4", 
-    funcao: "Iluminação", 
+    nome: "Leandro Busch", 
+    funcao: "Diretor Técnico", 
     foto: "https://picsum.photos/seed/equipe4/200/200" 
   },
   { 
