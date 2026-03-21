@@ -5,6 +5,7 @@ import Connection from '@/components/Connection';
 import WhyWatch from '@/components/WhyWatch';
 import FAQ from '@/components/FAQ';
 import EventInfo from '@/components/EventInfo';
+import FichaTecnica from '@/components/FichaTecnica';
 import FinalCTA from '@/components/FinalCTA';
 import FloatingCTA from '@/components/FloatingCTA';
 
@@ -20,6 +21,7 @@ export default function Home() {
       <WhyWatch />
       <FAQ />
       <EventInfo />
+      <FichaTecnica />
       <FinalCTA symplaLink={symplaLink} />
       <FloatingCTA symplaLink={symplaLink} />
       
