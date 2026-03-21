@@ -4,7 +4,6 @@ import Story from '@/components/Story';
 import Connection from '@/components/Connection';
 import WhyWatch from '@/components/WhyWatch';
 import FAQ from '@/components/FAQ';
-import SocialProof from '@/components/SocialProof';
 import EventInfo from '@/components/EventInfo';
 import FinalCTA from '@/components/FinalCTA';
 import FloatingCTA from '@/components/FloatingCTA';
@@ -20,7 +19,6 @@ export default function Home() {
       <Connection />
       <WhyWatch />
       <FAQ />
-      <SocialProof />
       <EventInfo />
       <FinalCTA symplaLink={symplaLink} />
       <FloatingCTA symplaLink={symplaLink} />
