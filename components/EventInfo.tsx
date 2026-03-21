@@ -8,22 +8,22 @@ export default function EventInfo() {
     {
       icon: <Calendar className="w-6 h-6 text-wine" />,
       label: "Data",
-      value: "[Inserir Data]"
+      value: "10/07/2026"
     },
     {
       icon: <Clock className="w-6 h-6 text-wine" />,
       label: "Horário",
-      value: "[Inserir Horário]"
+      value: "20:00"
     },
     {
       icon: <MapPin className="w-6 h-6 text-wine" />,
       label: "Local",
-      value: "[Inserir Local] - [Inserir Cidade]"
+      value: "GEMAG - Rua Dona Cantilda, 46 - Rio de Janeiro"
     },
     {
       icon: <Info className="w-6 h-6 text-wine" />,
       label: "Detalhes",
-      value: "Duração: [Inserir Duração] | Classificação: [Inserir Classificação]"
+      value: "Duração: 01:20 | Classificação: +14"
     }
   ];
 
