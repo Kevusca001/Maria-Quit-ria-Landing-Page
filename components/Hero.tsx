@@ -16,7 +16,7 @@ export default function Hero({ symplaLink }: HeroProps) {
           src="/hero-bg.png"
           alt="Maria Quitéria - O Espetáculo"
           fill
-          className="object-cover opacity-70 object-top"
+          className="object-contain opacity-70 object-center"
           priority
         />
         {/* Gradiente mais suave no topo para não esconder o texto da imagem, e mais escuro embaixo para dar contraste ao botão */}
