@@ -4,13 +4,13 @@ const equipe = [
   { 
     id: 1,
     nome: "Lucília Costa", 
-    funcao: "Atriz", 
+    funcao: "Dramaturgia e Adaptação", 
     foto: "/foto-1.png" 
   },
   { 
     id: 2,
     nome: "Nathalia Lopes", 
-    funcao: "Atriz", 
+    funcao: "Elenco", 
     foto: "/foto-5.png" 
   },
   { 
@@ -28,7 +28,7 @@ const equipe = [
   { 
     id: 5,
     nome: "Evelyn Vasconcelos", 
-    funcao: "Produtora Musical", 
+    funcao: "Trilha Sonora Original", 
     foto: "/foto-4.png" 
   },
 ];
