@@ -5,7 +5,6 @@ const equipe = [
     id: 1,
     nome: "Lucília Costa", 
     funcao: "Atriz", 
-    // Para usar sua própria foto, faça o upload para a pasta "public" com o nome "foto-1.jpg" e altere o src abaixo para "/foto-1.jpg"
     foto: "/foto-1.png" 
   },
   { 
@@ -16,7 +15,7 @@ const equipe = [
   },
   { 
     id: 3,
-      nome: "Gustavo Horta", 
+    nome: "Gustavo Horta", 
     funcao: "Diretor", 
     foto: "/foto-3.png" 
   },
@@ -32,7 +31,6 @@ const equipe = [
     funcao: "Produtora Musical", 
     foto: "/foto-4.png" 
   },
- 
 ];
 
 export default function FichaTecnica() {
@@ -46,9 +44,16 @@ export default function FichaTecnica() {
           <div className="w-24 h-1 bg-wine mx-auto rounded-full"></div>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-8 md:gap-12">
-          {equipe.map((membro) => (
-            <div key={membro.id} className="flex flex-col items-center text-center">
+        {/* Alteramos o grid-cols-3 para grid-cols-6 no desktop */}
+        <div className="grid grid-cols-2 md:grid-cols-6 gap-8 md:gap-12">
+          {equipe.map((membro, index) => (
+            <div 
+              key={membro.id} 
+              className={`flex flex-col items-center text-center col-span-1 md:col-span-2
+                ${index === 3 ? "md:col-start-2" : ""} 
+                ${index === 4 ? "col-span-2 md:col-span-2" : ""}
+              `}
+            >
               <div className="relative w-32 h-32 md:w-40 md:h-40 mb-4 rounded-full overflow-hidden border-2 border-wine/30 shadow-lg shadow-wine/5">
                 <Image
                   src={membro.foto}
@@ -63,6 +68,7 @@ export default function FichaTecnica() {
             </div>
           ))}
         </div>
+        
       </div>
     </section>
   );
