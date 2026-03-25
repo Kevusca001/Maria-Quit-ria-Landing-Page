@@ -13,7 +13,7 @@ export default function Hero({ symplaLink }: HeroProps) {
       {/* Background Image & Overlay */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/hero-bg.jpeg"
+          src="/hero-bg.png"
           alt="Maria Quitéria - O Espetáculo"
           fill
           className="object-cover opacity-70 object-top md:object-center"
