@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 export default function Story() {
   return (
-    <section className="py-24 md:py-32 bg-deep-black relative overflow-hidden border-t border-wine/20">
+    <section className="py-12 md:py-32 bg-deep-black relative overflow-hidden border-t border-wine/20">
       <div className="absolute inset-0 z-0 opacity-20">
         <Image
           src=""
