@@ -11,7 +11,7 @@ const equipe = [
     id: 2,
     nome: "Nathalia Lopes", 
     funcao: "Atriz", 
-    foto: "https://picsum.photos/seed/equipe2/200/200" 
+    foto: "Nathalia Lopes.jpeg" 
   },
   { 
     id: 3,
