@@ -11,7 +11,7 @@ const equipe = [
     id: 2,
     nome: "Nathalia Lopes", 
     funcao: "Atriz", 
-    foto: "/Nathalia Lopes.jpeg" 
+    foto: "/foto-5.png" 
   },
   { 
     id: 3,
