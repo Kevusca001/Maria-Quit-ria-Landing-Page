@@ -10,7 +10,7 @@ import FinalCTA from '@/components/FinalCTA';
 import FloatingCTA from '@/components/FloatingCTA';
 
 export default function Home() {
-  const symplaLink = "https://www.sympla.com.br/[link-do-evento]";
+  const symplaLink = "https://linktr.ee/alucilia";
 
   return (
     <main className="min-h-screen bg-deep-black text-white selection:bg-wine selection:text-white">
