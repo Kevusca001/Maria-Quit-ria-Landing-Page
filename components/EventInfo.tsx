@@ -28,7 +28,7 @@ export default function EventInfo() {
   ];
 
   return (
-    <section className="py-24 md:py-32 bg-deep-black relative">
+    <section className="py-12 md:py-32 bg-deep-black relative">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(139,0,0,0.1)_0%,transparent_70%)]" />
       
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
