@@ -23,7 +23,7 @@ export default function NotJustAPlay() {
   ];
 
   return (
-    <section className="py-24 md:py-32 bg-deep-black relative overflow-hidden">
+    <section className="py-12 md:py-32 bg-deep-black relative overflow-hidden">
       <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-wine/50 to-transparent" />
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
