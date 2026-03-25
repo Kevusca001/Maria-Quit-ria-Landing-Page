@@ -9,7 +9,7 @@ interface FinalCTAProps {
 
 export default function FinalCTA({ symplaLink }: FinalCTAProps) {
   return (
-    <section className="relative py-32 md:py-48 flex items-center justify-center overflow-hidden bg-deep-black border-t border-wine/30">
+    <section className="relative py-12 md:py-48 flex items-center justify-center overflow-hidden bg-deep-black border-t border-wine/30">
       {/* Background Image & Overlay */}
       <div className="absolute inset-0 z-0">
         <Image
