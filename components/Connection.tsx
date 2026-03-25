@@ -4,7 +4,7 @@ import { motion } from 'motion/react';
 
 export default function Connection() {
   return (
-    <section className="py-24 md:py-40 bg-deep-black relative flex flex-col items-center justify-center text-center px-4">
+    <section className="py-12 md:py-40 bg-deep-black relative flex flex-col items-center justify-center text-center px-4">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(74,4,4,0.15)_0%,transparent_70%)]" />
       
       <motion.div
