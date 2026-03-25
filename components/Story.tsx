@@ -8,7 +8,7 @@ export default function Story() {
     <section className="py-24 md:py-32 bg-deep-black relative overflow-hidden border-t border-wine/20">
       <div className="absolute inset-0 z-0 opacity-20">
         <Image
-          src="https://picsum.photos/seed/mystery-woman-dark/1920/1080?blur=4"
+          src="Aprendi Cedo.png"
           alt="Textura de fundo misteriosa"
           fill
           className="object-cover"
