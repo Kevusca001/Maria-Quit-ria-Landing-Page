@@ -32,12 +32,7 @@ const equipe = [
     funcao: "Produtora Musical", 
     foto: "/foto-4.png" 
   },
-  { 
-    id: 6,
-    nome: "Nome da Pessoa 6", 
-    funcao: "Trilha Sonora", 
-    foto: "https://picsum.photos/seed/equipe6/200/200" 
-  },
+ 
 ];
 
 export default function FichaTecnica() {
