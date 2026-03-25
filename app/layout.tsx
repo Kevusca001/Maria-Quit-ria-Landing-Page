@@ -15,7 +15,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: 'Maria Quitéria | O Espetáculo',
-  description: 'Uma experiência teatral intensa sobre dor, mistério e a força feminina que ressurge do fogo. Garanta seu ingresso no Sympla.',
+  description: 'Uma experiência teatral intensa sobre dor, mistério e a força feminina que ressurge do fogo. Garanta seu ingresso.',
   keywords: ['espetáculo Maria Quitéria', 'peça de teatro Maria Quitéria', 'teatro espiritual feminino', 'espetáculo sobre Pombagira', 'peça sobre superação feminina'],
 };
 
