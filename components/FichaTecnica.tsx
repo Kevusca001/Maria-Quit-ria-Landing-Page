@@ -9,7 +9,7 @@ const equipe = [
   },
   { 
     id: 2,
-    nome: "Nathalia Lopes", 
+    nome: "Nath Lopes", 
     funcao: "Elenco", 
     foto: "/foto-5.png" 
   },
