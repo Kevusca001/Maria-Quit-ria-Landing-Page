@@ -28,7 +28,7 @@ export default function WhyWatch() {
   ];
 
   return (
-    <section className="py-24 md:py-32 bg-deep-black border-y border-wine/10 relative">
+    <section className="py-12 md:py-32 bg-deep-black border-y border-wine/10 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
