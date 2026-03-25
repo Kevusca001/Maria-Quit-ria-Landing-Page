@@ -8,7 +8,7 @@ export default function Story() {
     <section className="py-24 md:py-32 bg-deep-black relative overflow-hidden border-t border-wine/20">
       <div className="absolute inset-0 z-0 opacity-20">
         <Image
-          src="Aprendi Cedo.png"
+          src=""
           alt="Textura de fundo misteriosa"
           fill
           className="object-cover"
@@ -74,7 +74,7 @@ export default function Story() {
         >
           <div className="aspect-[3/4] relative rounded-sm overflow-hidden shadow-[0_0_50px_rgba(74,4,4,0.3)] border border-wine/30">
             <Image
-              src="https://picsum.photos/seed/dramatic-woman-theater/800/1200"
+              src="Aprendi Cedo.png"
               alt="Cena dramática de Maria Quitéria"
               fill
               className="object-cover opacity-80 mix-blend-luminosity hover:mix-blend-normal transition-all duration-1000"
