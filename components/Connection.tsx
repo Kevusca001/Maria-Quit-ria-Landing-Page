@@ -5,7 +5,9 @@ import { motion } from 'motion/react';
 export default function Connection() {
   return (
     <section className="py-12 md:py-40 bg-deep-black relative flex flex-col items-center justify-center text-center px-4">
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(74,4,4,0.15)_0%,transparent_70%)]" />
+      {/* O brilho de fundo (radial-gradient) estava com o RGBA do vermelho antigo. 
+          Foi alterado para o RGBA do burnt-red (roxo vibrante) para manter a coerência visual. */}
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(124,58,237,0.15)_0%,transparent_70%)]" />
       
       <motion.div
         initial={{ opacity: 0, y: 40 }}
