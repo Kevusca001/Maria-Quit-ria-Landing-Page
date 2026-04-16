@@ -6,29 +6,31 @@ import { HeartPulse, Sparkles, Theater, Flame } from 'lucide-react';
 export default function WhyWatch() {
   const reasons = [
     {
-      icon: <HeartPulse className="w-6 h-6 text-wine" />,
+      // Ícones alterados para burnt-red
+      icon: <HeartPulse className="w-6 h-6 text-burnt-red" />,
       title: "Certas histórias não se assistem, se sentem.",
       desc: "Você não será apenas um espectador. A energia pulsante do palco vai atravessar a plateia."
     },
     {
-      icon: <Flame className="w-6 h-6 text-wine" />,
+      icon: <Flame className="w-6 h-6 text-burnt-red" />,
       title: "Provoca, emociona e transforma.",
       desc: "Prepare-se para sair do teatro diferente de como entrou. É uma catarse coletiva."
     },
     {
-      icon: <Theater className="w-6 h-6 text-wine" />,
+      icon: <Theater className="w-6 h-6 text-burnt-red" />,
       title: "Diferente de um entretenimento comum.",
       desc: "Uma obra de arte visceral que foge dos clichês e entrega profundidade espiritual e humana."
     },
     {
-      icon: <Sparkles className="w-6 h-6 text-wine" />,
+      icon: <Sparkles className="w-6 h-6 text-burnt-red" />,
       title: "Força feminina e resistência.",
       desc: "Uma oportunidade rara de ver a potência da mulher retratada com tanta crueza e beleza."
     }
   ];
 
   return (
-    <section className="py-12 md:py-32 bg-deep-black border-y border-wine/10 relative">
+    // Borda da section alterada para bordeaux/50
+    <section className="py-12 md:py-32 bg-deep-black border-y border-bordeaux/50 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -50,9 +52,11 @@ export default function WhyWatch() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
-              className="flex items-start bg-smoke p-8 rounded-sm border border-wine/20 hover:border-wine/50 transition-colors duration-300"
+              // Bordas alteradas para bordeaux, com hover para o roxo vibrante (burnt-red)
+              className="flex items-start bg-smoke p-8 rounded-sm border border-bordeaux/50 hover:border-burnt-red/50 transition-colors duration-300 group"
             >
-              <div className="flex-shrink-0 mr-6 w-12 h-12 rounded-full bg-deep-black flex items-center justify-center border border-wine/30 shadow-[0_0_15px_rgba(74,4,4,0.5)]">
+              {/* Sombra RGBA e borda interna corrigidas para os tons de roxo */}
+              <div className="flex-shrink-0 mr-6 w-12 h-12 rounded-full bg-deep-black flex items-center justify-center border border-burnt-red/30 shadow-[0_0_15px_rgba(124,58,237,0.3)] group-hover:shadow-[0_0_20px_rgba(124,58,237,0.5)] transition-shadow duration-300">
                 {reason.icon}
               </div>
               <div>
