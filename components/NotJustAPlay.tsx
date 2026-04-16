@@ -6,17 +6,18 @@ import { Flame, Eye, Sparkles } from 'lucide-react';
 export default function NotJustAPlay() {
   const features = [
     {
-      icon: <Flame className="w-8 h-8 text-wine" />,
+      // Ícones atualizados para o roxo vibrante
+      icon: <Flame className="w-8 h-8 text-burnt-red" />,
       title: "Uma Travessia Emocional",
       desc: "Não é apenas teatro. É um mergulho em uma história intensa sobre dor, identidade e força."
     },
     {
-      icon: <Eye className="w-8 h-8 text-wine" />,
+      icon: <Eye className="w-8 h-8 text-burnt-red" />,
       title: "O Mistério da Existência",
       desc: "Uma narrativa que toca profundamente o feminino, revelando segredos que atravessam vidas."
     },
     {
-      icon: <Sparkles className="w-8 h-8 text-wine" />,
+      icon: <Sparkles className="w-8 h-8 text-burnt-red" />,
       title: "Renascimento",
       desc: "Acompanhe a jornada de uma mulher que, das cinzas, reconstrói seu próprio destino."
     }
@@ -24,7 +25,8 @@ export default function NotJustAPlay() {
 
   return (
     <section className="py-12 md:py-32 bg-deep-black relative overflow-hidden">
-      <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-wine/50 to-transparent" />
+      {/* Linha divisória com gradiente ajustado para o tom roxo vibrante */}
+      <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-burnt-red/50 to-transparent" />
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <motion.div
@@ -52,7 +54,8 @@ export default function NotJustAPlay() {
               transition={{ duration: 0.6, delay: index * 0.2 }}
               className="flex flex-col items-center text-center group"
             >
-              <div className="w-20 h-20 rounded-full bg-wine/10 flex items-center justify-center mb-6 group-hover:bg-wine/20 transition-colors duration-500 border border-wine/20">
+              {/* Background do círculo e hover ajustados para evitar tons magenta escuros */}
+              <div className="w-20 h-20 rounded-full bg-bordeaux/30 flex items-center justify-center mb-6 group-hover:bg-burnt-red/20 transition-colors duration-500 border border-burnt-red/30">
                 {feature.icon}
               </div>
               <h3 className="text-2xl font-bold text-white mb-4 font-serif">{feature.title}</h3>
