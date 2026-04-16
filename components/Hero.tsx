@@ -49,7 +49,7 @@ export default function Hero({ symplaLink }: HeroProps) {
             className="group relative inline-flex items-center justify-center px-8 py-4 md:px-12 md:py-5 text-lg md:text-xl font-bold text-white uppercase tracking-wider bg-wine hover:bg-burnt-red transition-all duration-300 rounded-sm overflow-hidden shadow-[0_0_40px_rgba(59,7,100,0.4)] hover:shadow-[0_0_60px_rgba(124,58,237,0.6)]"
           >
             <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-transparent via-white/10 to-transparent -translate-x-full group-hover:animate-[shimmer_1.5s_infinite]" />
-            Garantir meu ingresso
+            Ingressos em breve!
           </a>
           <p className="mt-4 text-xs md:text-sm text-gray-500 font-sans uppercase tracking-widest">
             Compra 100% segura
