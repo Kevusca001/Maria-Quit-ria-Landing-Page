@@ -2,13 +2,14 @@
 @import "tw-animate-css";
 
 @theme {
-  --font-sans: var(--font-sans);
-  --font-serif: var(--font-serif);
+  /* ... outras fontes ... */
 
   --color-deep-black: #050505;
-  --color-wine: #4a0404;
-  --color-bordeaux: #2b0202;
-  --color-burnt-red: #8b0000;
+  
+  --color-wine: #3b0764;       
+  --color-bordeaux: #2e1065;   
+  --color-burnt-red: #7c3aed;  
+  
   --color-aged-gold: #b89947;
   --color-copper: #b87333;
   --color-smoke: #1a1a1a;
