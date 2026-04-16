@@ -37,7 +37,7 @@ export default function FloatingCTA({ symplaLink }: FloatingCTAProps) {
           rel="noopener noreferrer"
           animate={{ scale: [1, 1.05, 1] }}
           transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }}
-          className="relative flex items-center justify-center gap-3 px-6 py-4 md:px-8 md:py-5 bg-wine hover:bg-burnt-red text-white rounded-full shadow-[0_10px_30px_rgba(139,0,0,0.6)] hover:shadow-[0_15px_40px_rgba(139,0,0,0.8)] transition-colors duration-300 group"
+          className="relative flex items-center justify-center gap-3 px-6 py-4 md:px-8 md:py-5 bg-wine hover:bg-burnt-red text-white rounded-full shadow-[0_10px_30px_rgba(59,7,100,0.4)] hover:shadow-[0_15px_40px_rgba(124,58,237,0.6)] transition-colors duration-300 group"
         >
           <Ticket className="w-5 h-5 md:w-6 md:h-6 group-hover:scale-110 transition-transform duration-300" />
           <span className="font-sans font-bold uppercase tracking-wider text-sm md:text-base">
