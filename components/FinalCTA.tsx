@@ -9,7 +9,8 @@ interface FinalCTAProps {
 
 export default function FinalCTA({ symplaLink }: FinalCTAProps) {
   return (
-    <section className="relative py-12 md:py-48 flex items-center justify-center overflow-hidden bg-deep-black border-t border-wine/30">
+    // Borda superior ajustada para o roxo bordeaux
+    <section className="relative py-12 md:py-48 flex items-center justify-center overflow-hidden bg-deep-black border-t border-bordeaux/50">
       {/* Background Image & Overlay */}
       <div className="absolute inset-0 z-0">
         <Image
@@ -20,7 +21,8 @@ export default function FinalCTA({ symplaLink }: FinalCTAProps) {
           referrerPolicy="no-referrer"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-deep-black via-deep-black/80 to-deep-black" />
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(139,0,0,0.2)_0%,transparent_70%)]" />
+        {/* Radial gradient alterado do vermelho (139,0,0) para o roxo burnt-red (124,58,237) */}
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(124,58,237,0.2)_0%,transparent_70%)]" />
       </div>
 
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto flex flex-col items-center">
@@ -51,11 +53,12 @@ export default function FinalCTA({ symplaLink }: FinalCTAProps) {
           transition={{ duration: 0.8, delay: 0.8 }}
           className="flex flex-col items-center"
         >
+          {/* Sombras do botão (shadow e hover:shadow) alteradas dos hexadecimais vermelhos para os tons roxos */}
           <a
             href={symplaLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="group relative inline-flex items-center justify-center px-10 py-5 md:px-16 md:py-6 text-xl md:text-2xl font-bold text-white uppercase tracking-wider bg-wine hover:bg-burnt-red transition-all duration-300 rounded-sm overflow-hidden shadow-[0_0_50px_rgba(139,0,0,0.6)] hover:shadow-[0_0_80px_rgba(139,0,0,0.8)]"
+            className="group relative inline-flex items-center justify-center px-10 py-5 md:px-16 md:py-6 text-xl md:text-2xl font-bold text-white uppercase tracking-wider bg-wine hover:bg-burnt-red transition-all duration-300 rounded-sm overflow-hidden shadow-[0_0_50px_rgba(59,7,100,0.6)] hover:shadow-[0_0_80px_rgba(124,58,237,0.8)]"
           >
             <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:animate-[shimmer_1.5s_infinite]" />
             Garantir meu ingresso
