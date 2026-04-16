@@ -27,7 +27,7 @@ export default function EventInfo() {
       location: "CONFIRMADOS: São Paulo; Belo Horizonte; Curitiba",
       date: "A Confirmar",
       time: "A Confirmar",
-      status: "Em breve" // Encurtei um pouco para ficar melhor na tela
+      status: "Disponível em breve" // Encurtei um pouco para ficar melhor na tela
     },
   ];
 
