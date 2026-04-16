@@ -21,7 +21,7 @@ export default function Hero({ symplaLink }: HeroProps) {
         />
         {/* Gradiente mais suave no topo para não esconder o texto da imagem, e mais escuro embaixo para dar contraste ao botão */}
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-deep-black/30 to-deep-black" />
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(139,0,0,0.1)_0%,transparent_80%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(59,7,100,0.4)_0%,transparent_80%)]" />
       </div>
 
       <div className="relative z-10 text-center px-4 max-w-5xl mx-auto flex flex-col items-center w-full">
@@ -46,7 +46,7 @@ export default function Hero({ symplaLink }: HeroProps) {
             href={symplaLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="group relative inline-flex items-center justify-center px-8 py-4 md:px-12 md:py-5 text-lg md:text-xl font-bold text-white uppercase tracking-wider bg-wine hover:bg-burnt-red transition-all duration-300 rounded-sm overflow-hidden shadow-[0_0_40px_rgba(139,0,0,0.4)] hover:shadow-[0_0_60px_rgba(139,0,0,0.6)]"
+            className="group relative inline-flex items-center justify-center px-8 py-4 md:px-12 md:py-5 text-lg md:text-xl font-bold text-white uppercase tracking-wider bg-wine hover:bg-burnt-red transition-all duration-300 rounded-sm overflow-hidden shadow-[0_0_40px_rgba(59,7,100,0.4)] hover:shadow-[0_0_60px_rgba(124,58,237,0.6)]"
           >
             <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-transparent via-white/10 to-transparent -translate-x-full group-hover:animate-[shimmer_1.5s_infinite]" />
             Garantir meu ingresso
