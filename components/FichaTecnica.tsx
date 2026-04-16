@@ -4,7 +4,7 @@ const equipe = [
   { 
     id: 1,
     nome: "Lucília Costa", 
-    funcao: "Dramaturgia e Adaptação", 
+    funcao: "Elenco e Dramaturgia", 
     foto: "/foto-1.png" 
   },
   { 
