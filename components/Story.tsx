@@ -5,7 +5,8 @@ import Image from 'next/image';
 
 export default function Story() {
   return (
-    <section className="py-12 md:py-32 bg-deep-black relative overflow-hidden border-t border-wine/20">
+    // Borda superior ajustada para o novo roxo
+    <section className="py-12 md:py-32 bg-deep-black relative overflow-hidden border-t border-bordeaux/50">
       <div className="absolute inset-0 z-0 opacity-20">
         <Image
           src=""
@@ -38,7 +39,8 @@ export default function Story() {
             <p>
               Em um enredo onde o sagrado e o profano se encontram, segredos há muito enterrados vêm à tona. É uma história sobre as cicatrizes que o mundo deixa nas mulheres e o fogo necessário para curá-las.
             </p>
-            <p className="text-wine font-medium italic">
+            {/* Texto de destaque em roxo vibrante em vez de wine */}
+            <p className="text-burnt-red font-medium italic">
               Prepare-se para revelações que vão desafiar o que você acredita saber sobre força e redenção.
             </p>
           </div>
@@ -58,7 +60,8 @@ export default function Story() {
                 transition={{ duration: 0.5, delay: 0.4 + idx * 0.1 }}
                 className="flex items-center text-gray-200 font-sans"
               >
-                <div className="w-2 h-2 rounded-full bg-wine mr-4" />
+                {/* Ponto da lista (bullet) em roxo vibrante */}
+                <div className="w-2 h-2 rounded-full bg-burnt-red mr-4" />
                 {bullet}
               </motion.li>
             ))}
@@ -72,9 +75,12 @@ export default function Story() {
           transition={{ duration: 1 }}
           className="md:w-1/2 relative"
         >
-          <div className="aspect-[3/4] relative rounded-sm overflow-hidden shadow-[0_0_50px_rgba(74,4,4,0.3)] border border-wine/30">
+          {/* Removido o rgba hardcoded (rgba(74,4,4,0.3)) que causava o brilho vermelho.
+            Substituído por um rgba roxo correspondente ao seu tom bordeaux e borda roxa.
+          */}
+          <div className="aspect-[3/4] relative rounded-sm overflow-hidden shadow-[0_0_50px_rgba(46,16,101,0.4)] border border-bordeaux/50">
             <Image
-              src="Aprendi Cedo.png"
+              src="/Aprendi Cedo.png"
               alt="Cena dramática de Maria Quitéria"
               fill
               className="object-cover opacity-80 mix-blend-luminosity hover:mix-blend-normal transition-all duration-1000"
