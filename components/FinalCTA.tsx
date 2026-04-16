@@ -61,7 +61,7 @@ export default function FinalCTA({ symplaLink }: FinalCTAProps) {
             className="group relative inline-flex items-center justify-center px-10 py-5 md:px-16 md:py-6 text-xl md:text-2xl font-bold text-white uppercase tracking-wider bg-wine hover:bg-burnt-red transition-all duration-300 rounded-sm overflow-hidden shadow-[0_0_50px_rgba(59,7,100,0.6)] hover:shadow-[0_0_80px_rgba(124,58,237,0.8)]"
           >
             <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:animate-[shimmer_1.5s_infinite]" />
-            Garantir meu ingresso
+            Ingressos em breve!
           </a>
           <p className="mt-6 text-sm md:text-base text-gray-400 font-sans uppercase tracking-widest flex items-center">
             <span className="inline-block w-2 h-2 rounded-full bg-green-500 mr-2 animate-pulse" />
