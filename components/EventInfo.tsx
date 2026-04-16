@@ -7,18 +7,30 @@ export default function EventInfo() {
   // Novo formato de dados: um array de apresentações (shows)
   const shows = [
     {
+      location: "GEMAG - Rio de Janeiro",
       date: "10/07/2026",
       time: "20:00",
-      location: "GEMAG - Rua Dona Cantilda, 46 - Rio de Janeiro",
-      status: "Disponível" // Opcional, bom para "Esgotado", etc.
+      status: "Disponível em breve" // Opcional, bom para "Esgotado", etc.
     },
-    {
+     {
+      location: "GEMAG - Rio de Janeiro",
       date: "11/07/2026",
-      time: "21:00",
-      location: "GEMAG - Rua Dona Cantilda, 46 - Rio de Janeiro",
-      details: "Duração: 01:20 | Classificação: +14",
-      status: "Disponível"
+      time: "20:00",
+      status: "Disponível em breve" // Opcional, bom para "Esgotado", etc.
     },
+     {
+      location: "GEMAG - Rio de Janeiro",
+      date: "12/07/2026",
+      time: "20:00",
+      status: "Disponível em breve" // Opcional, bom para "Esgotado", etc.
+    },
+     {
+      location: "CONFIRMADOS: São Paulo; Belo Horizonte; Curitiba",
+      date: "A Confirmar",
+      time: "A Confirmar",
+      status: "Disponível em breve" // Opcional, bom para "Esgotado", etc.
+    },
+   
     // Adicione mais datas aqui
   ];
 
@@ -62,9 +74,6 @@ export default function EventInfo() {
             <div className="col-span-5 flex items-center gap-2">
               <MapPin className="w-4 h-4 text-burnt-red" /> Local
             </div>
-            <div className="col-span-3 flex items-center gap-2">
-              <Info className="w-4 h-4 text-burnt-red" /> Detalhes
-            </div>
           </div>
 
           {/* Linhas de Apresentações */}
@@ -100,13 +109,6 @@ export default function EventInfo() {
                   </div>
                 </div>
 
-                <div className="col-span-12 md:col-span-3 flex items-center justify-between gap-3">
-                  <div className="flex items-start gap-3">
-                    <Info className="w-5 h-5 text-burnt-red mt-1 md:hidden" />
-                    <div>
-                      <span className="block text-xs text-gray-500 uppercase md:hidden">Detalhes</span>
-                      <span className="text-gray-400 font-sans text-sm">{show.details}</span>
-                    </div>
                   </div>
                 </div>
               </div>
