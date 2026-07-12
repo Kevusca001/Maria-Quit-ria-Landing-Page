@@ -15,18 +15,6 @@ export default function EventInfo() {
   const shows: Show[] = [
     {
       location: 'GEMAG - Rio de Janeiro',
-      date: '10/07/2026',
-      time: '20:00',
-      status: 'Disponível',
-    },
-    {
-      location: 'GEMAG - Rio de Janeiro',
-      date: '11/07/2026',
-      time: '19:30',
-      status: 'Disponível',
-    },
-    {
-      location: 'GEMAG - Rio de Janeiro',
       date: '12/07/2026',
       time: '19:00',
       status: 'Disponível',
