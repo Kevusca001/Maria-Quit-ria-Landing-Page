@@ -52,12 +52,6 @@ export default function EventInfo() {
       status: 'Disponível',
     },
     {
-      location: 'Templo Umbandista Filhos de Oxóssi - Rio de Janeiro',
-      date: '19/09/2026',
-      time: '20:00',
-      status: 'Disponível',
-    },
-    {
       location: 'Teatro Ênio Carvalho - Curitiba',
       date: '03/10/2026',
       time: '20:00',
