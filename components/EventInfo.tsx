@@ -14,14 +14,6 @@ type Show = {
 export default function EventInfo() {
   const shows: Show[] = [
     {
-      location: 'GEMAG - Rio de Janeiro',
-      date: '12/07/2026',
-      time: '19:00',
-      status: 'Disponível',
-    },
-
-    // Exemplo para quando você tiver mais meses
-    {
       location: 'Laba Comedy Bar - Mesquita - RJ',
       date: '25/07/2026',
       time: '20:00',
