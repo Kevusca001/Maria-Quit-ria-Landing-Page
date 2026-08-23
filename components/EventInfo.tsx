@@ -14,48 +14,41 @@ type Show = {
 export default function EventInfo() {
   const shows: Show[] = [
     {
-      location: 'Laba Comedy Bar - Mesquita - RJ',
-      date: '25/07/2026',
-      time: '20:00',
-      status: 'Disponível',
-    },
-    {
-      location: 'Teatro Del Art - Barra Point - Rio de Janeiro',
-      date: '08/08/2026',
-      time: '20:00',
-      status: 'Disponível',
-    },
-    {
-      location: 'Teatro Mars - São Paulo',
-      date: '12/09/2026',
-      time: '20:00',
-      status: 'Disponível',
-    },
-    {
-      location: 'Teatro Ênio Carvalho - Curitiba',
-      date: '03/10/2026',
-      time: '20:00',
-      status: 'Disponível',
-    },
-        {
-      location: 'Teatro Ênio Carvalho - Curitiba',
-      date: '04/10/2026',
-      time: '20:00',
-      status: 'Disponível',
-    },
-    {
-      location: 'Casa de Cura - Rio de Janeiro',
-      date: '24/10/2026',
-      time: '20:00',
-      status: 'Disponível',
-    },
-    {
-      location: 'Teatro Nossa Senhora das Dores',
-      date: '15/11/2026',
-      time: '19:00',
-      status: 'Disponível',
-    },
-
+  location: 'Sessão Imersiva - Juiz de Fora',
+  date: '05/09/2026',
+  time: '20:00',
+  status: 'Disponível',
+},
+{
+  location: 'Teatro Miguel Falabella - Norte Shopping',
+  date: '11/09/2026',
+  time: '21:00',
+  status: 'Disponível',
+},
+{
+  location: 'São Paulo - Bela Vista',
+  date: '12/09/2026',
+  time: '20:00',
+  status: 'Disponível',
+},
+{
+  location: 'Curitiba',
+  date: '03/10/2026',
+  time: '19:00',
+  status: 'Disponível',
+},
+{
+  location: 'Niterói',
+  date: '17/10/2026',
+  time: '20:00',
+  status: 'Disponível',
+},
+{
+  location: 'Nova Iguaçu',
+  date: '28/11/2026',
+  time: '19:30',
+  status: 'Disponível',
+},
     // Datas sem mês definido ficam em uma aba separada
     {
       location: 'CONFIRMADOS: Niterói e Nova Iguaçu',
